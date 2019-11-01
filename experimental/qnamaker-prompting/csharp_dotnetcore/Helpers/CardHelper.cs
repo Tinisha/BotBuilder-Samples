@@ -29,7 +29,7 @@ namespace QnAPrompting.Helpers
                     {
                         Value = prompt.DisplayText,
                         Type =  ActionTypes.ImBack,
-                        Title = prompt.DisplayText,
+                        Text = prompt.DisplayText,
                     });
             }
 
